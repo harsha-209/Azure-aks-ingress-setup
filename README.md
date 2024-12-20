@@ -25,7 +25,7 @@ let's install nginx ingress on aks cluster by following below document
    certificate manger link: https://cert-manager.io/docs/tutorials/getting-started-aks-letsencrypt/
 
 
-**#setup the azure key vault to access from aks pod application**
+# setup the azure key vault to access from aks pod application
    
 first you have to export below vairable as environment variables
 enable csi drive installation in while aks creation setup time
