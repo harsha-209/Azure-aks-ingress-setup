@@ -4,7 +4,7 @@ let's install nginx ingress on aks cluster by following below document
 
 1. helm upgrade --install ingress-nginx ingress-nginx --repo https://kubernetes.github.io/ingress-nginx
 2. it will create a loadbalaner ip in aks cloud
-3. deploy you application
+3. deploy you application **#NOTE** **DEPLOY THE APPLICATION IN SAME NAMESPACE ,WHERE INGRESS CONTROLLER INSTALLED/SETUP**(IF NOT, YOU MAY FACE NOT REACHABLE ISSUE)
 4. now deploy ingresswithoutssl yaml file
 5. now you can access the app with nginx ingress ip
 
