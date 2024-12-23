@@ -1,4 +1,8 @@
 # Azure-aks-ingress-setup
+follow aks doucmentation for nginx ingress in aks cluster 
+
+https://learn.microsoft.com/en-us/troubleshoot/azure/azure-kubernetes/load-bal-ingress-c/create-unmanaged-ingress-controller?tabs=azure-cli
+
 
 let's install nginx ingress on aks cluster by following below document
 
