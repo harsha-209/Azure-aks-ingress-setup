@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: core-app
-        image: harshadnginx.azurecr.io/core-backend/corehealth
+        image: hars/core-backend/corehealth
         ports:
         - containerPort: 8081
         livenessProbe:
